@@ -1,7 +1,7 @@
 # Find-Edge-in-Texture
 A slow and non simple method to find edges in textures                         
 
-This is probably the first most complicated thing I tried to make in Unity.  While it doesn't work well and the code is a mess, I'm kind of proud of it.
+This is probably the first most complicated thing I tried to make in Unity.  While it doesn't work well and the code is a mess, I feel like posting it here.
 
 The original idea was to try and detect roads in textures.  Basically you take a 2D image of a Map with roads and then this code would search through that 2d texture data and find the things that looked like roads.  It would use specific colours and known attributes of roads to identify them and then turn that into point and spline data to be more efficiently used in a game.
 
